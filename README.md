@@ -1,1 +1,1 @@
-# Tailwind_practice
+# Tailwind CSS
