@@ -1,2 +1,5 @@
 node_modules
 .DS_Store
+
+# The generated css file.
+style.css
