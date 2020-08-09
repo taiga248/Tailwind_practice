@@ -11,18 +11,18 @@
     <section class="border-b border-gray-400">
       <nav>
         <ul class="flex">
-          <li class="font-bold uppercase mx-10 my-3 text-4xl">
+          <li class="font-bold uppercase my-1 ml-4 text-4xl">
             <a href="/">Title</a>
           </li>
 
           <div class="flex items-center justify-end w-screen">
-            <li class="mx-4">
+            <li class="mx-2">
               <a class="text-xl" href="#"><span>Home</span></a>
             </li>
-            <li class="mx-4">
+            <li class="mx-2">
               <a class="text-xl" href="#"><span>About</span></a>
             </li>
-            <li class="ml-4 mr-8">
+            <li class="ml-2 mr-6">
               <a class="text-xl" href="#"><span>Contact</span></a>
             </li>
           </div>
@@ -30,10 +30,18 @@
       </nav>
     </section>
 
-    <main class="px-16 py-6">
-      <section class="flex justify-end">
-        <a class="mx-1 text-systemBlue" href="#">System Blue</a>
-        <a class="mx-1 text-systemRed" href="#">System Red</a>
+    <main class="px-16 py-6 bg-gray-100 md:col-span-2">
+      <section class="flex justify-center md:justify-end">
+        <a
+          class="btn mx-1 text-systemBlue border-systemBlue border-2 hover:bg-systemBlue hover:text-white"
+          href="#"
+          >System Blue</a
+        >
+        <a
+          class="btn mx-1 text-systemRed  border-systemRed border-2 hover:bg-systemRed hover:text-white"
+          href="#"
+          >System Red</a
+        >
       </section>
 
       <header>
@@ -55,13 +63,65 @@
         <h4 class="font-bold mt-12 pb-2 border-b border-gray-400">
           Latest Hoge
         </h4>
-        <div class="mt-6">
-          <div>
-            <img src="https://picsum.photos/300/200" alt="img" />
-            <div class="mt-2">
-              <span>Lorem ipsum dolor sit amet Cupiditate quidem totam</span>
-              <span>Lorem ipsum dolor sit amet Cupiditate quidem totam</span>
+
+        <div class="mt-8 grid grid-cols-3 gap-8">
+          <div
+            class="card hover:shadow-lg w-500"
+          >
+            <img
+              class="w-full h-32 sm:h-48 object-cover"
+              src="https://picsum.photos/300/200"
+              alt="img"
+            />
+            <div class="m-4">
+              <span class="text-gray-600 ">Lorem quidem totam</span>
+              <span class="block text-gray500 text-xs">Lorem quidem totam</span>
             </div>
+            <div
+              class="bg-gray-400 text-gray text-xs uppercase font-bold rounded absolute"
+            ></div>
+          </div>
+          <div class="card hover:shadow-lg">
+            <img
+              class="w-full h-32 sm:h-48 object-cover"
+              src="https://picsum.photos/300/200"
+              alt="img"
+            />
+            <div class="m-4">
+              <span class="text-gray-600 ">Lorem quidem totam</span>
+              <span class="block text-gray500 text-xs">Lorem quidem totam</span>
+            </div>
+            <div
+              class="bg-gray-400 text-gray text-xs uppercase font-bold rounded absolute"
+            ></div>
+          </div>
+          <div class="card hover:shadow-lg">
+            <img
+              class="w-full h-32 sm:h-48 object-cover"
+              src="https://picsum.photos/300/200"
+              alt="img"
+            />
+            <div class="m-4">
+              <span class="text-gray-600 ">Lorem quidem totam</span>
+              <span class="block text-gray500 text-xs">Lorem quidem totam</span>
+            </div>
+            <div
+              class="bg-gray-400 text-gray text-xs uppercase font-bold rounded absolute"
+            ></div>
+          </div>
+          <div class="card hover:shadow-lg">
+            <img
+              class="w-full h-32 sm:h-48 object-cover"
+              src="https://picsum.photos/300/200"
+              alt="img"
+            />
+            <div class="m-4">
+              <span class="text-gray-600 ">Lorem quidem totam</span>
+              <span class="block text-gray500 text-xs">Lorem quidem totam</span>
+            </div>
+            <div
+              class="bg-gray-400 text-gray text-xs uppercase font-bold rounded absolute"
+            ></div>
           </div>
         </div>
       </section>
